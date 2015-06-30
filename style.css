@@ -15,23 +15,28 @@ body {
     max-width: 80ch;
 }
 
-ul {
+ul#nav {
     list-style-type: none;
     padding-left: 0px;
     font-family: 'Montserrat', sans-serif;
 }
 
-li {
+ul#nav li {
     display: inline-block;
     font-size: 20pt;
     margin-right: 1em;
+}
+
+ol h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h1, h3 {
     border-bottom: 1px solid #555;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
